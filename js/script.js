@@ -7,7 +7,7 @@ $(function() {
   if (+shitLife != +current) {
     $('#shitlife-counter').countdown({
       until:        shitLife,
-      description:  '...till I get a shitty life.',
+      description:  '...til I get a shitty life.',
       expiryText:   shitLifeText
     });
   }

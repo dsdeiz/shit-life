@@ -2,6 +2,9 @@ body {
   background: transparent url('../img/bg.png') repeat;
   margin: 0;
   padding: 0;
+  font-family: 'Rufina', serif;
+  color: #fff;
+  text-shadow: 0.1em 0.1em 0.05em #771111;
 }
 
 #main {
@@ -9,14 +12,15 @@ body {
   width: 540px;
 }
 
+#main h1 {
+  text-align: center;
+}
+
 #main #shitlife-counter {
   border: 0;
   background-color: transparent;
-  font-family: 'Rufina', serif;
   font-size: 32px;
-  color: #fff;
   text-align: center;
-  text-shadow: 0.1em 0.1em 0.05em #771111;
 }
 
 #main #shitlife-counter .countdown_descr {
