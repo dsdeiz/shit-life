@@ -1,0 +1,36 @@
+body {
+  background: transparent url('../img/bg.png') repeat;
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  margin: 180px auto 0;
+  width: 540px;
+}
+
+#main #shitlife-counter {
+  border: 0;
+  background-color: transparent;
+  font-family: 'Rufina', serif;
+  font-size: 32px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0.1em 0.1em 0.05em #771111;
+}
+
+#main #shitlife-counter .countdown_descr {
+  font-size: 28px;
+}
+
+#main #shitlife-counter .countdown_row {
+  font-size: 28px;
+}
+
+#main #shitlife-counter .countdown_row .countdown_section {
+  font-size: 32px;
+}
+
+#main #shitlife-counter .countdown_row .countdown_amount {
+  font-size: 240%;
+}
