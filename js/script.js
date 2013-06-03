@@ -4,7 +4,7 @@ $(function() {
   var current      = new Date();
   var shitLifeText = 'I now have a shitty life. :(';
 
-  if (+shitLife != +current) {
+  if (+shitLife >= +current) {
     $('#shitlife-counter').countdown({
       until:        shitLife,
       description:  '...til I get a shitty life.',
